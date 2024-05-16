@@ -156,7 +156,7 @@ export default function StudentDetail() {
                   name="my_tabs_2"
                   role="tab"
                   className="tab"
-                  aria-label="Status Kuliah"
+                  aria-label="Status"
                   defaultChecked
                 />
                 <div
@@ -221,7 +221,7 @@ export default function StudentDetail() {
                   name="my_tabs_2"
                   role="tab"
                   className="tab w-[150px]"
-                  aria-label="Mata Kuliah"
+                  aria-label="Courses"
                 />
                 <div
                   role="tabpanel"

@@ -7,6 +7,8 @@ This application is present as a reference for Higher Education information and 
 - React.JS
 - React Router DOM
 - Vite
+- Tailwind
+- DaisyUI
 
 ## Preview
 
