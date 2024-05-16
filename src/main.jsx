@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Dashboard from "./Dashboard";
+import Dashboard from "./pages/Dashboard";
 import "./index.css";
-import Search from "./Search";
-import SearchIndex from "./SearchIndex";
-import StudentDetail from "./StudentDetail";
+import Search from "./pages/Search";
+import SearchIndex from "./pages/SearchIndex";
+import StudentDetail from "./pages/StudentDetail";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>

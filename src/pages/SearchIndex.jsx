@@ -1,5 +1,6 @@
-import Navbar from "./components/Navbar";
+import Navbar from "../components/Navbar";
 import { useState } from "react";
+import Title from "../components/Title";
 
 export default function SearchIndex() {
   const [inputStudent, setInputStudent] = useState("");
@@ -18,6 +19,7 @@ export default function SearchIndex() {
 
   return (
     <>
+      <Title text="Search" />
       <Navbar />
       <div className="min-h-screen bg-base-200">
         <div className="w-full join lg:mt-10 mt-5  lg:px-[20rem] px-2">

@@ -1,8 +1,31 @@
-# React + Vite
+# CariMHS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application is present as a reference for Higher Education information and provides convenience for users who want to access data information about Higher Education and the academic community anywhere and anytime.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.JS
+- React Router DOM
+- Vite
+
+## Preview
+
+- Dashboard
+<p align="center" width="100%">
+    <img width="100%" src="./docs/dashboard.png"> 
+</p>
+
+- Search Student
+<p align="center" width="100%">
+    <img width="100%" src="./docs/search.png"> 
+</p>
+
+- Student Detail (Academic Status)
+<p align="center" width="100%">
+    <img width="100%" src="./docs/detail-1.png"> 
+</p>
+
+- Student Detail (Courses)
+<p align="center" width="100%">
+    <img width="100%" src="./docs/detail-2.png"> 
+</p>

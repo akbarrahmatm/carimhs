@@ -1,8 +1,8 @@
-import { parse } from "postcss";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import { detailStudent } from "./utils/httpRequest";
+import Navbar from "../components/Navbar";
+import Title from "../components/Title";
+import { detailStudent } from "../utils/httpRequest";
 
 export default function StudentDetail() {
   const { idStudent } = useParams("search");
@@ -67,10 +67,9 @@ export default function StudentDetail() {
     fetchDetailStudent();
   }, []);
 
-  console.log(generalData);
-
   return (
     <>
+      <Title text="Student Detail" />
       <Navbar />
       <div className="min-h-screen bg-base-200">
         <div className="w-full join lg:mt-10 mt-5  lg:px-[20rem] px-2">

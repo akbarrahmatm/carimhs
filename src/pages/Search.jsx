@@ -1,7 +1,8 @@
-import Navbar from "./components/Navbar";
+import Navbar from "../components/Navbar";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { searchStudent } from "./utils/httpRequest";
+import { searchStudent } from "../utils/httpRequest";
+import Title from "../components/Title";
 
 export default function Search() {
   const { searchParams } = useParams("search");
@@ -67,6 +68,7 @@ export default function Search() {
 
   return (
     <>
+      {searchParams && <Title text={`Search : ${searchParams}`} />}
       <Navbar />
       <div className="min-h-screen bg-base-200">
         <div className="w-full join lg:mt-10 mt-5  lg:px-[20rem] px-2">

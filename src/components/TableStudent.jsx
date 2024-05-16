@@ -5,8 +5,6 @@ export default function TableStudent({ data }) {
 
   useEffect(() => {
     setStudentLength(student.mahasiswa.length);
-
-    console.log(studentLength);
   }, []);
 
   return (
